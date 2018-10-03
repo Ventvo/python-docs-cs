@@ -8,7 +8,11 @@ kódu na konec modulu::
 
 můžete vytvořit modul použitelný jak jako skript, tak jako importovatelný
 modul, protože kód, který parsuje argumenty z příkazového řádku běží pouze
-v případě, že je modul puštěn jako "hlavní":
+v případě, že je modul puštěn jako "hlavní"::
 
-V případě importu kód něběží::
+V případě importu kód neběží::
+
+Toto je často používaný postup pro poskytnutí konvenčního uživatelského
+rozhraní modulu, nebo pro testovací účely (spuštění modulu jako skript spustí
+testovací balík).
 
