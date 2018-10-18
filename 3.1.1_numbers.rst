@@ -1,4 +1,4 @@
-Tlumočník se chová jako jednoduchá kalkulačka: na ni můžete zadat výraz
+Interpretr se chová jako jednoduchá kalkulačka: na ni můžete zadat výraz
 a zapíše hodnotu. Syntaxe výrazů je přímá: operátory +, -, * a /
 pracují stejně jako ve většině ostatních jazyků (například Pascal nebo C);
 mohou být pro seskupení použity závorky (()). Například:
