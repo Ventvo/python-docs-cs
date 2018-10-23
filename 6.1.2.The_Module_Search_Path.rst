@@ -7,9 +7,9 @@ se soubor :file:`spam.py` v seznamu adresářů, který se nachází v
 proměnné :data:`sys.path`. :data:`sys.path` se inicializuje z těchto
 lokací:
 
-* Adresář obshaující vstupní skript (nebo aktuální adresář, není-li
+* Adresář obsahující vstupní skript (nebo aktuální adresář, není-li
   vstupní soubor zadán).
-* :envvar:`PYTHONPATH` (list se jmény adresářů se stejnou syntaxí jako
+* :envvar:`PYTHONPATH` (list s názvy adresářů se stejnou syntaxí jako
   shellová proměnná :envvar:`PATH`).
 * Vychozí adresáře dány instalací.
 
