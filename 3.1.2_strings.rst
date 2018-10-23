@@ -3,7 +3,7 @@ několika způsoby. Mohou být uzavřeny v jednoduchých uvozovkách ("...") neb
 dvojitých uvozovek ("...") se stejným výsledkem [2]. \ lze použít k úniku
 uvozovek:
 
-V interaktivním interpretovi je výstupní řetězec uzavřený v uvozovkách a
+V interaktivním interpretrovi je výstupní řetězec uzavřený v uvozovkách a
 zvláštní znaky uniká zpětnými lomítkama. Zatímco to může někdy vypadat
 odlišně od vstupu (přiložené uvozovky by se mohly změnit), jsou tyto dva
 řetězce ekvivalentní. Řetězec je uzavřen v dvojitých uvozovkách, pokud
