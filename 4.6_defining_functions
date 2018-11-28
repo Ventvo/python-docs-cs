@@ -1,4 +1,4 @@
-Můžeme vytvořit funkci, která zapisuje série Fibonacci do libovolné hranice:
+Můžeme vytvořit funkci, která zapisuje Fibonacciho sekvenci do libovolné hranice:
 
 Klíčové slovo def představuje definici funkce. Musí být následováno názvem
 funkce a seznamem formálních parametrů. Výrazy, které tvoří tělo funkce,
@@ -9,7 +9,7 @@ literal je dokumentační řetězec funkce nebo docstring. (Další informace
 o dokumentech naleznete v části Dokumentační řetězce.) Existují nástroje,
 které používají dokumenty pro automatické vytváření online nebo tištěné
 dokumentace nebo umožňují uživateli interaktivně procházet kód; je dobrá
-praxe zahrnout docstrings do kódu, který píšete, takže si zvykněte.
+praxe zahrnout docstrings do kódu, který píšete, takže si na to zvykněte.
 
 Provedení funkce představuje novou tabulku symbolů používanou pro lokální
 proměnné funkce. Přesněji, všechny proměnné přiřazení funkce ukládají hodnotu
@@ -38,18 +38,18 @@ nazývá Žádná (je to vestavěný název). Psaní hodnoty Žádný zpravidla 
 tlumočník, pokud by byla jediná zapsaná hodnota. Můžete to vidět, pokud opravdu
 chcete použít print():
 
-Je jednoduché zapsat funkci, která vrátí seznam čísel série Fibonacci
-namísto jeho vytištění:
+Je jednoduché zapsat funkci, která vrátí seznam čísel Fibonacciho sekvence
+namísto jeho vypsání:
 
 Tento příklad, jako obvykle, demonstruje některé nové funkce Pythonu:
 
 Výkaz návratů se vrátí hodnotou z funkce. návrat bez argumentu výrazu nevrací
 žádný. Klesající konec funkce také nevrací žádný.
-Výsledek result.append (a) volá metodu výsledku objektu seznamu. Metoda je
+Výsledek result.append(a) volá metodu výsledku objektu seznamu. Metoda je
 funkce, která 'patří' objektu a je pojmenována jako obj.methodname, kde obj
 je nějaký objekt (může to být výraz) a methodname je název metody, která je
 definována typem objektu. Různé typy definují různé metody. Metody různých
 typů mohou mít stejný název, aniž by to způsobilo nejednoznačnost. (Je možné
 definovat vlastní typy objektů a metody pomocí tříd, viz Třídy) Metoda append()
 zobrazená v příkladu je definována pro objekty seznamu; na konci seznamu přidá
-nový prvek. V tomto příkladu odpovídá výsledek = výsledek + [a], ale je efektivnější.
+nový prvek. V tomto příkladu odpovídá výsledek=výsledek+[a], ale je efektivnější.
