@@ -2,7 +2,7 @@
 
 Python ukladá pro zrychlení načítání kompilovanou verzi každého modulu do cache
 do adresáře ``__pycache__`` pod názvem :file:`module.{version}.pyc`, kde verze
-poznamenává formát formát kompilovaného souboru, běžně obsahuje verzi Pythonu.
+poznamenává formát kompilovaného souboru, běžně obsahuje verzi Pythonu.
 Například ve verzi 3.3 by kompilovaná verze spam.py by se cache uložila jako
 `__pycache__/spam.cpython-33.pyc`. Tato konvence pojmenovávání umožňuje
 koexistenci modulů kompilovaných v různých verzích. 
@@ -24,7 +24,7 @@ Pár tipů pro experty:
   snížení velikosti compilovaného modulu. Přepínač ``-O`` odstraňuje assert
   příkazy, ``-O0`` zároveň odstraní i assert příkazy a __doc__ řetězce.
   Vzhledem k tomu, že programy mohou záviset na jejich dostupnosti, měli
-  byste toto používat pouze jestli víte, co děláte. "Optimalizované" moduly
+  byste toto používat pouze pokud víte, co děláte. "Optimalizované" moduly
   mají ``opt-`` označení a často jsou menší. Budoucí vydání mohou měnit
   důsledky optimalizace.
 
