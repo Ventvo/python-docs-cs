@@ -1,0 +1,2 @@
+
+Je také možné definovat funkce s proměnným počtem argumentů. Existují tři normy, které lze kombinovat.
