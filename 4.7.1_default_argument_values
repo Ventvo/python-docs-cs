@@ -1,0 +1,20 @@
+Nejužitečnějším typem je zadat výchozí hodnotu pro jeden nebo více argumentů. Tím vytvoříte funkci, kterou lze volat s méně argumenty, než je definováno. Například:
+
+Tuto funkci lze volat několika způsoby:
+
+pouze povinný argument: ask_ok ('Opravdu chcete ukončit?')
+přičemž jeden z nepovinných argumentů: ask_ok ('OK přepsat soubor?', 2)
+nebo dokonce dává všechny argumenty: ask_ok ('OK přepsat soubor?', 2, 'Pojď, pouze ano nebo ne!')
+Tento příklad také uvádí klíčové slovo. Testuje, zda sekvence obsahuje určitou hodnotu.
+
+Výchozí hodnoty jsou vyhodnocovány v bodě definice funkce v definujícím rozsahu, takže
+
+
+vytiskne 5.
+
+Důležité upozornění: Výchozí hodnota je vyhodnocena pouze jednou. To je rozdíl, pokud výchozí je objekt, který lze měnit, například seznam, slovník nebo instance většiny tříd. Následující funkce například hromadí argumenty, které jí byly předány v následujících hovorech:
+
+
+Toto vytiskne
+
+Pokud si nepřejete, aby byla výchozí volba sdílena mezi následujícími voláními, můžete tuto funkci zapsat takto:
